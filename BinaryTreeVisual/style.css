@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+}
+
+#num {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #30106b;
+  outline: none;
+}
+
+#btnBox {
+  width: 800px;
+  outline: 4px solid #30106b;
+  display: block;
+  position: absolute;
+  position: absolute;
+  top: 550px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.btns {
+  /*outline: 3px solid yellow;*/
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.btn {
+  border: 2px solid #30106b;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.btn:hover {
+  box-shadow: -14px 11px 24px -7px rgba(176, 38, 255, 0.41);
+  -webkit-box-shadow: -14px 11px 24px -7px rgba(176, 38, 255, 0.41);
+  -moz-box-shadow: -14px 11px 24px -7px rgba(176, 38, 255, 0.41);
+  background-color: #30106b; /* Green */
+  color: white;
+  cursor: pointer;
+}

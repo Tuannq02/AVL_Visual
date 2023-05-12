@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <script src="Node.js"></script>
+    <script src="sketch.js"></script>
+    <script src="BST.js"></script>
+    <script src="TempNode.js"></script>
+
+    <div id="btnBox">
+      <input type="number" id="num" />
+      <div class="btns">
+        <input
+          class="btn"
+          type="submit"
+          value="Insert"
+          onclick="insertPressed()"
+        />
+        <input
+          class="btn"
+          type="submit"
+          value="Search"
+          onclick="searchPressed()"
+        />
+        <input
+          class="btn"
+          type="submit"
+          value="Delete"
+          onclick="deletePressed()"
+        />
+      </div>
+    </div>
+  </body>
+</html>
